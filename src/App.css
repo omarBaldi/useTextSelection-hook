@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,6 +10,29 @@
 
 html,
 body {
-  background-color: #222;
+  background-color: #220135;
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  padding: 3rem;
+  height: 100%;
+}
+
+.sentence {
+  font-size: 3em;
+}
+
+.textSelected {
+  opacity: 0.5;
+  font-size: 2em;
+  margin-top: 5rem;
 }
